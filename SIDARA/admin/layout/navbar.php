@@ -84,6 +84,11 @@ $is_transaksi_class = in_array($page, $transaksi_pages) ? 'active' : '';
                 <li><a href="/sidara/admin/laporan/laporan_sirkulasi.php" target="_blank">Sirkulasi</a></li>
                 <li><a href="/sidara/admin/laporan/laporan_tunggakan.php" target="_blank">Tunggakan</a></li>
                 <li><a href="/sidara/admin/laporan/laporan_statistik.php" target="_blank">Statistik</a></li>
+                
+                <li><a href="/sidara/admin/laporan/laporan_beban_jaksa.php" target="_blank">Beban Perkara Jaksa</a></li>
+                <li><a href="/sidara/admin/laporan/laporan_aktivitas_peminjam.php" target="_blank">Aktivitas Peminjam</a></li>
+                <li><a href="/sidara/admin/laporan/laporan_kapasitas_lokasi.php" target="_blank">Kapasitas Lokasi</a></li>
+                
                 <li><a href="/sidara/admin/laporan/laporan_sanksi.php" target="_blank" style="color: #ff6b6b;">Laporan Sanksi</a></li>
             </ul>
         </li>

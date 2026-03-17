@@ -29,11 +29,11 @@ $is_laporan_class = in_array($page, $laporan_pages) ? 'active' : '';
             </a>
         </li>
 
-        <li class="<?= $is_laporan_active; ?> <?= $is_laporan_class; ?>">
+        <li>
             <div class="icon-link">
                 <a href="#">
-                    <i class='bx bx-printer'></i>
-                    <span class="link_name">Pusat Laporan</span>
+                    <i class='bx bx-file'></i>
+                    <span class="link_name">Laporan</span>
                 </a>
                 <i class='bx bxs-chevron-down arrow'></i>
             </div>
@@ -43,7 +43,12 @@ $is_laporan_class = in_array($page, $laporan_pages) ? 'active' : '';
                 <li><a href="/sidara/admin/laporan/laporan_sirkulasi.php" target="_blank">Sirkulasi</a></li>
                 <li><a href="/sidara/admin/laporan/laporan_tunggakan.php" target="_blank">Tunggakan</a></li>
                 <li><a href="/sidara/admin/laporan/laporan_statistik.php" target="_blank">Statistik</a></li>
-                                <li><a href="/sidara/admin/laporan/laporan_sanksi.php" target="_blank" style="color: #ff6b6b;">Laporan Sanksi</a></li>
+                
+                <li><a href="/sidara/admin/laporan/laporan_beban_jaksa.php" target="_blank">Beban Perkara Jaksa</a></li>
+                <li><a href="/sidara/admin/laporan/laporan_aktivitas_peminjam.php" target="_blank">Aktivitas Peminjam</a></li>
+                <li><a href="/sidara/admin/laporan/laporan_kapasitas_lokasi.php" target="_blank">Kapasitas Lokasi</a></li>
+                
+                <li><a href="/sidara/admin/laporan/laporan_sanksi.php" target="_blank" style="color: #ff6b6b;">Laporan Sanksi</a></li>
             </ul>
         </li>
 
